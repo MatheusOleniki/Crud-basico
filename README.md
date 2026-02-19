@@ -5,7 +5,7 @@ A interface é feita com **JOptionPane (Swing)**, ideal para estudos de **POO**,
 
 ---
 
-## ✅ Funcionalidades
+## Funcionalidades
 
 - **Cadastrar cliente**
 - **Consultar cliente por CPF**
@@ -17,7 +17,7 @@ A interface é feita com **JOptionPane (Swing)**, ideal para estudos de **POO**,
 
 ---
 
-## 🧠 Conceitos aplicados
+## Conceitos aplicados
 
 - Programação Orientada a Objetos (POO)
 - Collections (`Map`, `Set`)
@@ -29,26 +29,7 @@ A interface é feita com **JOptionPane (Swing)**, ideal para estudos de **POO**,
 
 
 
-## ⚙️ Requisitos
+## Requisitos
 
 - **Java JDK 8+** (recomendado 11+)
 - Qualquer IDE (IntelliJ / Eclipse / VS Code) ou terminal
-
----
-
-## ▶️ Como executar
-
-### Opção 1: Rodar pela IDE
-1. Abra o projeto na sua IDE
-2. Execute a classe:
-   - `dao.App`
-
-### Opção 2: Rodar pelo terminal (javac/java)
-
-> Ajuste o caminho caso seus arquivos não estejam em `src/`.
-
-**Linux/macOS:**
-```bash
-mkdir -p out
-javac -d out src/domain/Cliente.java src/dao/*.java
-java -cp out dao.App
